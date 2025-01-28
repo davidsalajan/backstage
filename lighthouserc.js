@@ -32,6 +32,17 @@ module.exports = {
         'http://localhost:3000/create/templates/default/react-ssr-template',
         /** Search */
         'http://localhost:3000/search',
+        /** Miscellaneous */
+        'http://localhost:3000/settings',
+        /** plugin-devtools */
+        'http://localhost:3000/devtools',
+        'http://localhost:3000/devtools/config',
+        /** plugin-explore */
+        'http://localhost:3000/explore',
+        'http://localhost:3000/explore/groups',
+        'http://localhost:3000/explore/tools',
+        /** plugin-tech-radar */
+        'http://localhost:3000/tech-radar',
       ],
       settings: {
         onlyCategories: ['accessibility'],
@@ -41,11 +52,11 @@ module.exports = {
         outputPath: './.lighthouseci/reports',
         preset: 'desktop',
       },
-      startServerCommand: 'yarn dev',
+      startServerCommand: 'yarn start:lighthouse',
+      startServerReadyPattern: 'webpack compiled successfully',
       startServerReadyTimeout: 600000,
       numberOfRuns: 1,
       puppeteerScript: './.lighthouseci/scripts/guest-auth.js',
-      startServerReadyPattern: 'Listening on :7007',
     },
     assert: {
       assertions: {
@@ -53,7 +64,7 @@ module.exports = {
         'categories:pwa': 'off',
         'categories:best-practices': 'off',
         'categories:seo': 'off',
-        'categories:accessibility': ['error', { minScore: 0.85 }],
+        'categories:accessibility': ['error', { minScore: 0.95 }],
       },
     },
   },

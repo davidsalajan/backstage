@@ -14,17 +14,13 @@
  * limitations under the License.
  */
 
-import { ConfigReader } from '@backstage/config';
 import { Client as ElasticSearchClient } from '@elastic/elasticsearch';
 import { Client as OpenSearchClient } from '@opensearch-project/opensearch';
 import Mock from '@short.io/opensearch-mock';
 import { Readable } from 'stream';
 
 import { ElasticSearchClientWrapper } from './ElasticSearchClientWrapper';
-import {
-  createElasticSearchClientOptions,
-  ElasticSearchClientOptions,
-} from './ElasticSearchSearchEngine';
+import { ElasticSearchClientOptions } from './ElasticSearchSearchEngine';
 
 jest.mock('@elastic/elasticsearch', () => ({
   ...jest.requireActual('@elastic/elasticsearch'),
@@ -43,6 +39,7 @@ jest.mock('@elastic/elasticsearch', () => ({
         .mockImplementation(async args => ({ client: 'es', args })),
     },
     indices: {
+      get: jest.fn().mockImplementation(async args => ({ client: 'es', args })),
       create: jest
         .fn()
         .mockImplementation(async args => ({ client: 'es', args })),
@@ -79,6 +76,7 @@ jest.mock('@opensearch-project/opensearch', () => ({
         .mockImplementation(async args => ({ client: 'os', args })),
     },
     indices: {
+      get: jest.fn().mockImplementation(async args => ({ client: 'os', args })),
       create: jest
         .fn()
         .mockImplementation(async args => ({ client: 'os', args })),
@@ -103,11 +101,9 @@ describe('ElasticSearchClientWrapper', () => {
     let esOptions: ElasticSearchClientOptions;
 
     beforeEach(async () => {
-      esOptions = await createElasticSearchClientOptions(
-        new ConfigReader({
-          node: 'http://localhost:9200',
-        }),
-      );
+      esOptions = {
+        node: 'http://localhost:9200',
+      };
       jest.clearAllMocks();
     });
 
@@ -158,6 +154,16 @@ describe('ElasticSearchClientWrapper', () => {
       // Should call the ElasticSearch client with expected input.
       expect(result.client).toBe('es');
       expect(result.args).toStrictEqual(indexTemplate);
+    });
+
+    it('indexList', async () => {
+      const wrapper = ElasticSearchClientWrapper.fromClientOptions(esOptions);
+
+      const input = { index: 'xyz-*' };
+      const result = (await wrapper.listIndices(input)) as any;
+
+      expect(result.client).toBe('es');
+      expect(result.args).toStrictEqual(input);
     });
 
     it('indexExists', async () => {
@@ -229,6 +235,7 @@ describe('ElasticSearchClientWrapper', () => {
       osOptions = {
         provider: 'aws',
         node: 'https://my-es-cluster.eu-west-1.es.amazonaws.com',
+        region: 'eu-west-1',
         // todo(backstage/techdocs-core): Remove the following ts-ignore when
         // @short.io/opensearch-mock is updated to work w/opensearch >= 2.0.0
         // @ts-ignore
@@ -285,6 +292,16 @@ describe('ElasticSearchClientWrapper', () => {
       // Should call the OpenSearch client with expected input.
       expect(result.client).toBe('os');
       expect(result.args).toStrictEqual(indexTemplate);
+    });
+
+    it('indexList', async () => {
+      const wrapper = ElasticSearchClientWrapper.fromClientOptions(osOptions);
+
+      const input = { index: 'xyz-*' };
+      const result = (await wrapper.listIndices(input)) as any;
+
+      expect(result.client).toBe('os');
+      expect(result.args).toStrictEqual(input);
     });
 
     it('indexExists', async () => {

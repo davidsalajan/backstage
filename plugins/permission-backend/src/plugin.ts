@@ -14,21 +14,11 @@
  * limitations under the License.
  */
 
-import { loggerToWinstonLogger } from '@backstage/backend-common';
 import {
   coreServices,
-  createBackendModule,
   createBackendPlugin,
 } from '@backstage/backend-plugin-api';
-import { BackstageIdentityResponse } from '@backstage/plugin-auth-node';
-import {
-  AuthorizeResult,
-  PolicyDecision,
-} from '@backstage/plugin-permission-common';
-import {
-  PermissionPolicy,
-  PolicyQuery,
-} from '@backstage/plugin-permission-node';
+import { PermissionPolicy } from '@backstage/plugin-permission-node';
 import {
   policyExtensionPoint,
   PolicyExtensionPoint,
@@ -47,40 +37,11 @@ class PolicyExtensionPointImpl implements PolicyExtensionPoint {
 }
 
 /**
- * A permission policy module that allows all requests.
- *
- * @alpha
- */
-export const permissionModuleAllowAllPolicy = createBackendModule({
-  moduleId: 'allowAllPolicy',
-  pluginId: 'permission',
-  register(reg) {
-    class AllowAllPermissionPolicy implements PermissionPolicy {
-      async handle(
-        _request: PolicyQuery,
-        _user?: BackstageIdentityResponse,
-      ): Promise<PolicyDecision> {
-        return {
-          result: AuthorizeResult.ALLOW,
-        };
-      }
-    }
-
-    reg.registerInit({
-      deps: { policy: policyExtensionPoint },
-      async init({ policy }) {
-        policy.setPolicy(new AllowAllPermissionPolicy());
-      },
-    });
-  },
-});
-
-/**
  * Permission plugin
  *
- * @alpha
+ * @public
  */
-export const permissionPlugin = createBackendPlugin(() => ({
+export const permissionPlugin = createBackendPlugin({
   pluginId: 'permission',
   register(env) {
     const policies = new PolicyExtensionPointImpl();
@@ -90,16 +51,25 @@ export const permissionPlugin = createBackendPlugin(() => ({
     env.registerInit({
       deps: {
         http: coreServices.httpRouter,
-        config: coreServices.config,
+        config: coreServices.rootConfig,
         logger: coreServices.logger,
         discovery: coreServices.discovery,
-        identity: coreServices.identity,
+        auth: coreServices.auth,
+        httpAuth: coreServices.httpAuth,
+        userInfo: coreServices.userInfo,
       },
-      async init({ http, config, logger, discovery, identity }) {
-        const winstonLogger = loggerToWinstonLogger(logger);
+      async init({
+        http,
+        config,
+        logger,
+        discovery,
+        auth,
+        httpAuth,
+        userInfo,
+      }) {
         if (!policies.policy) {
           throw new Error(
-            'No policy module installed! Please install a policy module. If you want to allow all requests, use permissionModuleAllowAllPolicy',
+            'No policy module installed! Please install a policy module. If you want to allow all requests, use @backstage/plugin-permission-backend-module-allow-all-policy permissionModuleAllowAllPolicy',
           );
         }
 
@@ -107,12 +77,18 @@ export const permissionPlugin = createBackendPlugin(() => ({
           await createRouter({
             config,
             discovery,
-            identity,
-            logger: winstonLogger,
+            logger,
             policy: policies.policy,
+            auth,
+            httpAuth,
+            userInfo,
           }),
         );
+        http.addAuthPolicy({
+          path: '/health',
+          allow: 'unauthenticated',
+        });
       },
     });
   },
-}));
+});

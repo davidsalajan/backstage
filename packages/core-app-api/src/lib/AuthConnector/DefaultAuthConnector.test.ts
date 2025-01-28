@@ -18,7 +18,7 @@ import { DefaultAuthConnector } from './DefaultAuthConnector';
 import MockOAuthApi from '../../apis/implementations/OAuthRequestApi/MockOAuthApi';
 import * as loginPopup from '../loginPopup';
 import { UrlPatternDiscovery } from '../../apis';
-import { setupRequestMockHandlers } from '@backstage/test-utils';
+import { registerMswTestHooks } from '@backstage/test-utils';
 import { setupServer } from 'msw/node';
 import { rest } from 'msw';
 import { ConfigReader } from '@backstage/config';
@@ -53,7 +53,7 @@ const defaultOptions = {
 
 describe('DefaultAuthConnector', () => {
   const server = setupServer();
-  setupRequestMockHandlers(server);
+  registerMswTestHooks(server);
 
   afterEach(() => {
     jest.resetAllMocks();
@@ -167,6 +167,80 @@ describe('DefaultAuthConnector', () => {
     await expect(sessionPromise).resolves.toBe('my-session');
 
     expect(popupSpy).toHaveBeenCalledTimes(1);
+    expect(popupSpy).toHaveBeenCalledWith({
+      name: 'My Provider Login',
+      origin: 'http://my-host',
+      url: 'http://my-host/api/auth/my-provider/start?scope=&origin=http%3A%2F%2Flocalhost&flow=popup&env=production',
+      width: 450,
+      height: 730,
+    });
+  });
+
+  it('should show popup fullscreen', async () => {
+    const popupSpy = jest
+      .spyOn(loginPopup, 'showLoginPopup')
+      .mockResolvedValue('my-session');
+
+    jest.spyOn(window.screen, 'width', 'get').mockReturnValue(1000);
+    jest.spyOn(window.screen, 'height', 'get').mockReturnValue(1000);
+
+    const connector = new DefaultAuthConnector({
+      ...defaultOptions,
+      oauthRequestApi: new MockOAuthApi(),
+      sessionTransform: str => str,
+      popupOptions: {
+        size: {
+          fullscreen: true,
+        },
+      },
+    });
+
+    const sessionPromise = connector.createSession({
+      scopes: new Set(),
+      instantPopup: true,
+    });
+
+    await expect(sessionPromise).resolves.toBe('my-session');
+
+    expect(popupSpy).toHaveBeenCalledWith({
+      height: 1000,
+      name: 'My Provider Login',
+      origin: 'http://my-host',
+      url: 'http://my-host/api/auth/my-provider/start?scope=&origin=http%3A%2F%2Flocalhost&flow=popup&env=production',
+      width: 1000,
+    });
+  });
+
+  it('should show popup with special width and height', async () => {
+    const popupSpy = jest
+      .spyOn(loginPopup, 'showLoginPopup')
+      .mockResolvedValue('my-session');
+    const connector = new DefaultAuthConnector({
+      ...defaultOptions,
+      oauthRequestApi: new MockOAuthApi(),
+      sessionTransform: str => str,
+      popupOptions: {
+        size: {
+          width: 500,
+          height: 1000,
+        },
+      },
+    });
+
+    const sessionPromise = connector.createSession({
+      scopes: new Set(),
+      instantPopup: true,
+    });
+
+    await expect(sessionPromise).resolves.toBe('my-session');
+
+    expect(popupSpy).toHaveBeenCalledWith({
+      name: 'My Provider Login',
+      origin: 'http://my-host',
+      url: 'http://my-host/api/auth/my-provider/start?scope=&origin=http%3A%2F%2Flocalhost&flow=popup&env=production',
+      width: 500,
+      height: 1000,
+    });
   });
 
   it('should use join func to join scopes', async () => {
