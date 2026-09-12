@@ -1883,12 +1883,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -2788,7 +2788,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-router-beta: "npm:react-router@6.0.0-beta.0"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-router-dom-beta: "npm:react-router-dom@6.0.0-beta.0"
     react-router-dom-stable: "npm:react-router-dom@^6.3.0"
     react-router-stable: "npm:react-router@^6.3.0"
@@ -2799,7 +2799,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -2831,12 +2831,12 @@ __metadata:
     lodash: "npm:^4.17.21"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -2906,7 +2906,7 @@ __metadata:
     react-hook-form: "npm:^7.12.2"
     react-idle-timer: "npm:5.7.3"
     react-markdown: "npm:^8.0.0"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-sparklines: "npm:^1.7.0"
     react-syntax-highlighter: "npm:^15.4.5"
     react-use: "npm:^17.3.2"
@@ -2921,7 +2921,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -2948,13 +2948,13 @@ __metadata:
     history: "npm:^5.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zod: "npm:^3.25.76 || ^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3011,14 +3011,14 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3102,13 +3102,13 @@ __metadata:
     lodash: "npm:^4.17.21"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3138,12 +3138,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3166,12 +3166,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3199,13 +3199,13 @@ __metadata:
     msw: "npm:^2.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     uri-template: "npm:^2.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3233,13 +3233,13 @@ __metadata:
     history: "npm:^5.3.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3272,7 +3272,7 @@ __metadata:
     msw: "npm:^2.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zen-observable: "npm:^0.10.0"
     zod: "npm:^3.25.76 || ^4.0.0"
   peerDependencies:
@@ -3282,7 +3282,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/jest":
       optional: true
@@ -3327,12 +3327,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3375,7 +3375,7 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@emotion/react": ^11.10.5
     "@material-ui/core": ^4.12.2
@@ -3385,7 +3385,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router: ^6.30.2
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3402,12 +3402,12 @@ __metadata:
     grpc-docs: "npm:^1.1.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3451,14 +3451,14 @@ __metadata:
     graphql-ws: "npm:^5.4.1"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     swagger-ui-react: "npm:^5.27.1"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3535,13 +3535,13 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3563,12 +3563,12 @@ __metadata:
     react: "npm:^18.0.2"
     react-aria-components: "npm:~1.17.0"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -3609,7 +3609,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-aria: "npm:~3.48.0"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-stately: "npm:~3.46.0"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
@@ -3618,7 +3618,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4128,12 +4128,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4160,13 +4160,13 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4709,14 +4709,14 @@ __metadata:
     qs: "npm:^6.15.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4761,14 +4761,14 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-hook-form: "npm:^7.12.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     yaml: "npm:^2.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4844,7 +4844,7 @@ __metadata:
     qs: "npm:^6.15.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-test-renderer: "npm:^16.13.1"
     react-use: "npm:^17.2.4"
     react-window: "npm:^1.8.10"
@@ -4856,7 +4856,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@backstage/frontend-test-utils":
       optional: true
@@ -4902,13 +4902,13 @@ __metadata:
     luxon: "npm:^3.5.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4963,7 +4963,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-helmet: "npm:6.1.0"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     swr: "npm:^2.2.5"
     zen-observable: "npm:^0.10.0"
@@ -4972,7 +4972,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -4999,14 +4999,14 @@ __metadata:
     jsonschema: "npm:^1.2.6"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5108,12 +5108,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5144,13 +5144,13 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-json-view: "npm:^1.21.3"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5383,12 +5383,12 @@ __metadata:
     "@types/react-grid-layout": "npm:^1.3.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5434,14 +5434,14 @@ __metadata:
     react-dom: "npm:^18.0.2"
     react-grid-layout: "npm:1.3.4"
     react-resizable: "npm:^3.0.4"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zod: "npm:^3.25.76 || ^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5518,13 +5518,13 @@ __metadata:
     kubernetes-models: "npm:^4.1.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5602,13 +5602,13 @@ __metadata:
     msw: "npm:^2.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.4.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5637,12 +5637,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5693,12 +5693,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5839,13 +5839,13 @@ __metadata:
     react-aria-components: "npm:~1.17.0"
     react-dom: "npm:^18.0.2"
     react-relative-time: "npm:^0.0.9"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5874,13 +5874,13 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5923,14 +5923,14 @@ __metadata:
     qs: "npm:^6.15.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6438,14 +6438,14 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     winston: "npm:^3.2.1"
     winston-transport: "npm:^4.7.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6542,7 +6542,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-aria-components: "npm:^1.14.0"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     swr: "npm:^2.0.0"
     use-immer: "npm:^0.11.0"
@@ -6555,7 +6555,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router: ^6.30.3
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@backstage/frontend-test-utils":
       optional: true
@@ -6630,7 +6630,7 @@ __metadata:
     react-dom: "npm:^18.0.2"
     react-resizable: "npm:^3.0.5"
     react-resizable-panels: "npm:^3.0.4"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     react-window: "npm:^1.8.10"
     swr: "npm:^2.0.0"
@@ -6641,7 +6641,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6842,14 +6842,14 @@ __metadata:
     qs: "npm:^6.15.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.3.2"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6887,14 +6887,14 @@ __metadata:
     qs: "npm:^6.15.2"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6953,12 +6953,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -6987,13 +6987,13 @@ __metadata:
     jest-websocket-mock: "npm:^2.5.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     wait-for-expect: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7019,7 +7019,7 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     shadow-dom-testing-library: "npm:^1.13.1"
   peerDependencies:
     "@testing-library/dom": ^10.0.0
@@ -7027,7 +7027,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7095,13 +7095,13 @@ __metadata:
     photoswipe: "npm:^5.3.7"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     shadow-dom-testing-library: "npm:^1.13.1"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7176,13 +7176,13 @@ __metadata:
     lodash: "npm:^4.17.21"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7234,14 +7234,14 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-helmet: "npm:6.1.0"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zod: "npm:^4.0.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7313,14 +7313,14 @@ __metadata:
     msw: "npm:^2.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7430,7 +7430,7 @@ __metadata:
     msw: "npm:^2.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     zen-observable: "npm:^0.10.0"
   peerDependencies:
     "@testing-library/dom": ^10.0.0
@@ -7439,7 +7439,7 @@ __metadata:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/jest":
       optional: true
@@ -7463,13 +7463,13 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@material-ui/core": ^4.12.2
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7514,7 +7514,7 @@ __metadata:
     react-aria: "npm:~3.48.0"
     react-aria-components: "npm:~1.17.0"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-stately: "npm:~3.46.0"
     storybook: "npm:^10.4.0"
     use-sync-external-store: "npm:^1.4.0"
@@ -7522,7 +7522,7 @@ __metadata:
     "@types/react": ^18.0.0
     react: ^18.0.0
     react-dom: ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -7540,12 +7540,12 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -10046,13 +10046,13 @@ __metadata:
     "@types/react": "npm:^18.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -15394,6 +15394,13 @@ __metadata:
   version: 1.23.2
   resolution: "@remix-run/router@npm:1.23.2"
   checksum: 10/50eb497854881bbd2e1016d4eb83c935ecd618e1c3888b74718851317e3b04edbaae9fe1baa49ec08c5c52cfe7118f4664e37144813d9500f45f922d6602a782
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.23.4":
+  version: 1.23.4
+  resolution: "@remix-run/router@npm:1.23.4"
+  checksum: 10/1b7dd04465a542a8110ee398195ac4b9ac1de5521312f9953041874f0295bf64ff224a0ff88ff36a91c88004529667f566b95fdf94b35fc26b17b1f0d61f03d8
   languageName: node
   linkType: hard
 
@@ -22048,12 +22055,12 @@ __metadata:
     cross-fetch: "npm:^4.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-    react-router-dom: ^6.30.2
+    react-router-dom: ^6.30.6
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -27688,7 +27695,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-router: "npm:^6.30.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
   languageName: unknown
@@ -27768,7 +27775,7 @@ __metadata:
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-router: "npm:^6.30.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
     zen-observable: "npm:^0.10.0"
   languageName: unknown
@@ -40054,16 +40061,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.30.2":
-  version: 6.30.3
-  resolution: "react-router-dom@npm:6.30.3"
+"react-router-dom@npm:^6.30.6":
+  version: 6.30.6
+  resolution: "react-router-dom@npm:6.30.6"
   dependencies:
-    "@remix-run/router": "npm:1.23.2"
-    react-router: "npm:6.30.3"
+    "@remix-run/router": "npm:1.23.4"
+    react-router: "npm:6.30.6"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10/db974d801070e9967a076b31edca902e127793e02dc79f364461b94e81846a588c241d72e069f5b586b4a90ffd99798f5cb97753ac9d22fe90afa6dc008ab520
+  checksum: 10/6e501c45fd85894b197a84437c12cd0ab6d9c14277af41a7546f965ee0a0861aff1da5d72d56020a1ac2d4d4b1c4ec848a16554372004fdef5cdb1bce75a155e
   languageName: node
   linkType: hard
 
@@ -40078,7 +40085,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.30.3, react-router@npm:^6.30.2":
+"react-router@npm:6.30.6":
+  version: 6.30.6
+  resolution: "react-router@npm:6.30.6"
+  dependencies:
+    "@remix-run/router": "npm:1.23.4"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 10/df751de74dc460abc9023aecfd09284170939e8ad8892373ec0015aa04187e0b9c66fffcb546bfb0f1ca5c9edb14b67c93a46306a61efcf15a7dc20eca1e16b7
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^6.30.2":
   version: 6.30.3
   resolution: "react-router@npm:6.30.3"
   dependencies:
@@ -43694,7 +43712,7 @@ __metadata:
     cross-env: "npm:^10.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router-dom: "npm:^6.30.2"
+    react-router-dom: "npm:^6.30.6"
     react-use: "npm:^17.2.4"
   languageName: unknown
   linkType: soft
